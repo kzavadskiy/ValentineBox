@@ -1,0 +1,30 @@
+#include <SevSeg.h> // 7-segment library
+#include <Wire.h>
+#include "DS3231.h" //RTC library
+
+SevSeg sevseg; //Instantiate a seven segment controller object
+RTClib RTC;
+unsigned long dateWeGotTogether = 1477699200   ;  //in unixtime
+unsigned long days ; 
+
+void setup()
+{
+  byte numDigits = 4;   
+  byte digitPins[] = {12, 11, 10, 9}; //Digits: 1,2,3,4 
+  byte segmentPins[] = {13, 2, 3, 4, 5, 6, 7, 8}; //Segments: A,B,C,D,E,F,G,Period <--put one resistor (ex: 220 Ohms on each digit pin)
+  Wire.begin();
+  sevseg.begin(COMMON_CATHODE, numDigits, digitPins, segmentPins);
+  sevseg.setBrightness(10);  
+}
+
+void loop()
+{
+  //local vars
+  DateTime now = RTC.now(); //time from RTC
+  days = (now.unixtime() - dateWeGotTogether)/86400; // calculating days we got together, 86400 - seconds in day
+  
+  sevseg.setNumber(days); // to display
+ 
+  sevseg.refreshDisplay(); // Must run repeatedly; don't use blocking code (ex: delay()) in the loop() function or this won't work right
+
+}
