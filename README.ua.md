@@ -25,6 +25,9 @@
 
 Перш за все необхідно налаштувати модуль реального часу. Після збираня схеми, необхідно залити прошивку [Setting time](https://github.com/kzavadskiy/ValentineBox/blob/master/Setting%20time) на Arduino nano з встановленою батарейкою в модулі DS3231.
 
-Після цього можна заливати основну [прошивку](https://github.com/kzavadskiy/ValentineBox/blob/master/box_sketch) 
+Після цього можна заливати основну [прошивку](https://github.com/kzavadskiy/ValentineBox/blob/master/box_sketch) з від'єднаними провідниками SCA, SCL.
 
 В змінній dateWeGotTogether необхідно записати вашу пам'ятну дату в форматі unixtime. Для цього використайте конвертер дати https://www.unixtimestamp.com/index.php
+
+Після перевірки роботи можна збирати коробку, при вимкненому живленні модуль реального часу зберігає дату та час і після підключення до блоку живлення через USB кабель дата залишається актуальною.
+
