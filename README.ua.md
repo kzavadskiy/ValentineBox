@@ -1,4 +1,5 @@
 # ValentineBox
+![Foto](https://lh3.googleusercontent.com/zsYO3oxreWbP0d8SufO2Wx7JvZOUeQSrICO7VNHVK3ys23LzPO-s1nXEhfPwgTgUEKrC0hyDTvxF-3sO7x4S691Ke4ylLM8sJr7Ne8aTJthsNc81nhdhf8s9GH9rGcMVUOiH3igOYbIzAw1fMrclcBwpNpQAblWZy3Pp3jSs_9DnBToHs1uo6fTz-AIRNu-RrJ0nZb0NPnOqqqM-jXApjLhGEe18rzNunjHX6rvrM716FCsjxgBd4wcOL-Q82-O2g551veDFHm2N5KnhMLesH9CYmf3Go1i8E3bzgY2C5IHdmumoO8b9YkOHT9US40BuKZbfNBFHyoc_ABPfHa2PqIHeCEgAUCnvThzJMrvcUVZymOkQ-wWGErG-WP66DnMGEeP5VIo0GXGXrYURLxGIZrFjkpGQwE8Nk8LzJYodQQEAzhR-DjLhvaolCp1HrztInszEYt0PBR52vZqhm6_2Bb5j1jNeTCPn-3WNWQwpf6b_xLfs42UliupfYjhPnJa9Q07ZrGpWQNWL8pqaxsAZiSYlMiSF4OmLW75r7MiRpJXZ78p0B2JRz8QZisCTSEYGZ8XqpAa69RcpPW_h9TXsvvmcvKtj-532DkzIrtIsLrX8AZba5SPQK8UfmIIXff3KJdMVq_Y2MjGIK7QzQl-eqOLZ6wSyHIpOxjMHekZvQl2rCAVRvoCGbjc3eJ9Y=w872-h654-no?authuser=0)
 
 Даний невеликий проект дозволить вам подарувати гарний настрій та здивує вашу половинку не тільки на день Валентина, але й в інші важливі для вас дати.
 
@@ -30,4 +31,4 @@
 В змінній dateWeGotTogether необхідно записати вашу пам'ятну дату в форматі unixtime. Для цього використайте конвертер дати https://www.unixtimestamp.com/index.php
 
 Після перевірки роботи можна збирати коробку, при вимкненому живленні модуль реального часу зберігає дату та час і після підключення до блоку живлення через USB кабель дата залишається актуальною.
-
+ц
