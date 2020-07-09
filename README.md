@@ -20,7 +20,7 @@ List of required components:
 
 The wiring diagram can be assembled according to Figure 1 by hinged mounting or on a circuit board. It is possible both to solder conductors, and to use assembly conductors, it is desirable to connect on the DS3231 module contacts SCA, SCL through assembly conductors, with a possibility of convenient disconnection.
 
-![Scheme](https://raw.githubusercontent.com/kzavadskiy/ValentineBox/master/Schematic_Valentine%20Box)
+![Scheme](https://raw.githubusercontent.com/kzavadskiy/ValentineBox/master/Schematic_Valentine%20Box.png)
 
 Figure 1. Wiring diagram ValentineBox
 
